@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/true.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 1080px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  background-color: #cccccc;
+  background-image: url(img/xz.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 222px;
+  position: sticky;
+  top: 0px;
+}
+.head span {
+  position: absolute;
+  top: 140px;
+}
+.head a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+.head a:hover {
+  color: #d9d9d9;
+}
+.body {
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.footer {
+  height: 80px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 80px;
+  font-size: 15px;
+  position: sticky;
+  bottom: 0px;
+}
+.footer em {
+  font-style: normal;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  color: aquamarine;
+}
+li {
+  list-style: none;
+  text-align: center;
+}
+.boxb {
+  margin: 10px auto;
+  height: 300px;
+  width: 500px;
+}
+.boxb li {
+  float: left;
+  width: 237px;
+  height: 300px;
+  background-color: aliceblue;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+#last {
+  margin-right: 0;
+}
+.boxb ul li p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.boxb ul li img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+#keai {
+  font-weight: 400;
+  font-style: italic;
+}
+#kea {
+  font-weight: 400;
+  font-style: italic;
+}
+#haha {
+  background-color: #b3e0ff;
+}
+#hehe {
+  background-color: #b3e0ff;
+}
+#ulll {
+  margin-bottom: 50px;
+}
+.nav {
+  height: 500px;
+  text-align: center;
+}
+.emi {
+  margin-bottom: 50px;
+}
+.nav .emi p {
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: 30px;
+
+  font-family: "Times New Roman", Times, serif;
+  color: #ffb3ff;
+}
+.nav .emm {
+  text-decoration: line-through;
+  color: #888;
+}
+.nav .emm p {
+  font-size: 22px;
+  padding-bottom: 10px;
+  color: aliceblue;
+}
